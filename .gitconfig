@@ -1,9 +1,10 @@
 [user]
-    name = Oscar Täckström
-    email = oscar@inceptive.team
+    name =  Noha Radwan
+    email = nradwan7@gmail.com
 [credential "https://github.com"]
     helper = !/usr/bin/gh auth git-credential
-[diff]
-    guitool = vscode
-[difftool "vscode"]
-    cmd = code --wait --diff $LOCAL $REMOTE
+[core]
+    editor = code --wait
+    autocrlf = input
+[merge]
+    conflictstyle = diff3
