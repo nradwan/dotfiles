@@ -5,7 +5,7 @@ Dotfiles suitable for coder.com / (oh-my-)zsh / tmux / vim / iTerm2.
 ## Instructions
 ```
 cd ~
-git clone git@github.com:oscartackstrom/dotfiles.git
+git clone git@github.com:nradwan/dotfiles.git
 dotfiles/install.sh
 ```
 
