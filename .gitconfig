@@ -3,8 +3,10 @@
     email = nradwan7@gmail.com
 [credential "https://github.com"]
     helper = !/usr/bin/gh auth git-credential
-[core]
-    editor = code --wait
-    autocrlf = input
+[diff]
+    guitool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
     conflictstyle = diff3
+
